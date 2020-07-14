@@ -31,3 +31,4 @@ steps:
   displayName: 'pytest'
 
 - powershell: robot --pythonpath . -x outputxunit.xml TestCases.robot.
+  displayName: 'run robot scripts'
