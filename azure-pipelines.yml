@@ -28,7 +28,6 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    pytest Testcases\Tc2.robot
     pytest robot Testcases\Tc2.robot
   displayName: 'pytest'
 
