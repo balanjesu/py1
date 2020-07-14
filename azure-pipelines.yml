@@ -28,7 +28,7 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    pytest Testcases
+    pytest Testcases\Tc2.robot
   displayName: 'pytest'
 
 - task: PublishTestResults@1
