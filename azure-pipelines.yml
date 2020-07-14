@@ -30,4 +30,4 @@ steps:
     pytest
   displayName: 'pytest'
 
-- powershell: robot --pythonpath . -x outputxunit.xml TestCases.robot.
+- powershell: robot --pythonpath . -x outputxunit.xml py1.robot.
