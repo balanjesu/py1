@@ -29,3 +29,8 @@ steps:
 - powershell: robot --pythonpath . Testcases\Tc2.robot
   displayName: 'robot running'
 
+- task: PublishTestResults@1
+  inputs:
+    testResultsFiles: '**/*.xml'
+  displayName: 'publishing'
+
